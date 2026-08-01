@@ -1,9 +1,28 @@
 aid: prime-meridian
 name: Prime Meridian
-description: Prime Meridian is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Prime Meridian (Prime Meridian Labs) is an AI-powered consumer tax
+  preparation and e-filing service that files federal and state income tax
+  returns for free. Users upload their tax documents, answer a few clarifying
+  questions, and the platform's AI generates a plain-language return covering
+  W-2 employment, self-employment (Schedule C), K-1 partnership income, and
+  multi-state situations, then e-files it with the IRS and state authorities in
+  roughly fifteen minutes. The company is backed by General Catalyst and counts
+  former IRS Commissioner Daniel Werfel among its strategic advisors. It is a
+  consumer web application with no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/prime-meridian/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://getprimemeridian.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +31,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Tax
+- Tax Filing
+- Fintech
+- Consumer Finance
+- Artificial Intelligence
+- Accounting
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/prime-meridian-domain-security.yml
+- type: Website
+  url: https://getprimemeridian.com
+- type: SignUp
+  url: https://app.getprimemeridian.com/login
+- type: Login
+  url: https://app.getprimemeridian.com/login
+- type: Support
+  url: mailto:help@getprimemeridian.com
+- type: PrivacyPolicy
+  url: https://getprimemeridian.com/privacy
+- type: TermsOfService
+  url: https://getprimemeridian.com/terms
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
